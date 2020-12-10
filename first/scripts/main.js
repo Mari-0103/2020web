@@ -8,10 +8,6 @@
       
 }
     
-
-myImage.onclick = function() {
-  setUserName();
-}
     let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
@@ -20,6 +16,10 @@ myImage.onclick = function() {
     } else {
       myImage.setAttribute ('src','images/firefox-icon.png');
     }
+}
+
+myImage.onclick = function() {
+  setUserName();
 }
 
 
